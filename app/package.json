@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@stripe/react-stripe-js": "^1.16.5",
     "@stripe/stripe-js": "^1.49.0",
