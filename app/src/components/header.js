@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 import logo from "../img/f1cutsBlack.png";
-import About from "./pages/about";
+import Legacy from "./pages/legacy";
 import Landing from "./pages/landing";
 import Services from "./pages/services";
 import Cuts from "./pages/cut";
@@ -28,7 +28,7 @@ const Header = () => (
     <div>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/legacy" element={<About />} />
+        <Route path="/legacy" element={<Legacy />} />
         <Route path="/services" element={<Services />} />
         <Route path="/makeacut" element={<Cuts />} />
         <Route path="*" element={<NotFound />} />

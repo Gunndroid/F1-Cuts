@@ -10,9 +10,8 @@ import image8 from "../../img/f1-clients-wgci.png";
 import image9 from "../../img/f1-clients-wndr.png";
 import image10 from "../../img/f1-clients-att.png";
 import image11 from "../../img/f1-clients-underarmour.png";
-import image12 from "../../img/f1-clients-wndr.png";
 
-const About = () => {
+const Legacy = () => {
   return (
     <about className="h-screen text-white font-bold text-center ">
       {/* About Landing Content */}
@@ -163,7 +162,7 @@ const About = () => {
           </div>
 
           <div className="w-1/2 mx-auto">
-            <p className="text-xl font-bold">//</p>
+            <p className="text-xl font-bold">text</p>
             <br></br>
             <img
               src={image7}
@@ -221,4 +220,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Legacy;
