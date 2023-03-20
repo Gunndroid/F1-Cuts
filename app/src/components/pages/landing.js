@@ -1,6 +1,6 @@
-import video from "../../img/test1.MOV";
-import video1 from "../../img/test2.MOV";
-import video2 from "../../img/test3.MOV";
+import video from "../../img/video/test1.MOV";
+import video1 from "../../img/video/test2.MOV";
+import video2 from "../../img/video/test3.MOV";
 import imageMain from "../../img/f1TeamDarkRed.jpg";
 import "../../index.css";
 import PlaceAnOrder from "../placeAnOrder";
