@@ -1,7 +1,7 @@
-import video from "../../img/video/test1.MOV";
-import video1 from "../../img/video/test2.MOV";
-import video2 from "../../img/video/test3.MOV";
-import imageMain from "../../img/f1TeamDarkRed.jpg";
+import video from "../../media/video/test1.MOV";
+import video1 from "../../media/video/test2.MOV";
+import video2 from "../../media/video/test3.MOV";
+import imageMain from "../../media/img/f1TeamDarkRed.jpg";
 import "../../index.css";
 import PlaceAnOrder from "../placeAnOrder";
 
@@ -35,7 +35,7 @@ const Landing = () => (
       </p>
     </div>
     {/* Row 1 */}
-    <div className="grid grid-cols-2 grid-rows-1 justify-items-center items-center m-7 my-40 ">
+    <div className="grid grid-cols-2 grid-rows-1 justify-items-center items-center m-7 my-40">
       <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl w-2/3">
         <p className="w-3/4 text-center align-middle text-bold text-5xl mx-auto text-black font-faster">
           READY
