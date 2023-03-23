@@ -11,12 +11,12 @@ import ContactUs from "./pages/contact";
 const Header = () => (
   <>
     <nav className="h-30 text-white">
-      <div className="text-center grid grid-cols-2 items-center">
+      <div className="m text-center grid md:grid-cols-2 items-center">
         <Link to="/">
-          <img src={logo} alt="logo" className="ml-10 w-28" />
+          <img src={logo} alt="logo" className="mx-auto w-40 md:w-28" />
         </Link>
-        <ul>
-          <li className="grid grid-cols-4 mr-8">
+        <ul className="my-6">
+          <li className="grid grid-cols-4 mx-auto md:mr-8">
             <Link to="/">Home</Link>
             <Link to="/legacy">Legacy</Link>
             <Link to="/services">Services</Link>

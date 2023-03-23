@@ -15,12 +15,12 @@ const Legacy = () => {
   return (
     <about className="h-screen text-white font-bold text-center ">
       {/* About Landing Content */}
-      <p className="text-white text-7xl font-bold text-center font-faster my-28">
+      <p className="text-white text-5xl md:text-7xl font-bold text-center font-faster my-28">
         Our Legacy
       </p>
 
       <div className="bg-black py-24 border-white border-y-2 px-10">
-        <div className="grid grid-cols-3 grid-rows-3 gap-y-24 gap-x-10">
+        <div className="grid md:grid-cols-3 grid-rows-3 gap-y-24 gap-x-10">
           <div className="w-1/2 mx-auto">
             <p className="text-xl font-bold">Charity4Life</p>
             <br></br>
@@ -173,8 +173,8 @@ const Legacy = () => {
           </div>
         </div>
       </div>
-      <div className="mb-40 w-3/5 text-lg text-black font-bold text-center m-20 mx-auto border-white border-2 py-8 bg-slate-100 rounded-2xl">
-        <p className="mx-24">
+      <div className="mb-40 w-4/5 md:w-3/5 text-lg text-black font-bold text-center m-20 mx-auto border-black border-2 py-8 bg-slate-100 rounded-2xl">
+        <p className="p-6 md:mx-24">
           <br></br>
           <br></br>
           We are a video editing agency founded in Chicago by Hakan and Gunnar,
