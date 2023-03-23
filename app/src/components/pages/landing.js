@@ -20,7 +20,7 @@ const Landing = () => (
       {/* <div>
         <VerticalVideoCarousel />
       </div> */}
-      <p className="text-white p-7 text-xl md:text-2xl font-bold text-center m-20 mx-auto border-white border-y-2 py-32 bg-black">
+      <p className="text-white p-7 md:px-60 text-xl md:text-2xl font-bold text-center m-20 mx-auto border-white border-y-2 py-32 bg-black">
         F1 Cuts brings speed and style to your videos.
         <br></br>
         <br></br>
