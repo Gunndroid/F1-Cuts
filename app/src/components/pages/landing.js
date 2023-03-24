@@ -4,6 +4,9 @@ import video2 from "../../media/video/test3.MOV";
 import imageMain from "../../media/img/f1TeamDarkRed.jpg";
 import "../../index.css";
 import PlaceAnOrder from "../placeAnOrder";
+import poster1 from "../../media/img/f1Cuts-ready.png";
+import poster2 from "../../media/img/f1Cuts-set.png";
+import poster3 from "../../media/img/f1Cuts-edit2.png";
 
 const Landing = () => (
   <main className="text-white font-bold">
@@ -54,6 +57,7 @@ const Landing = () => (
       </div>
       <video
         class="video"
+        poster={poster1}
         src={video}
         controls="play"
         className=" border-black border-2 rounded-2xl"
@@ -76,6 +80,7 @@ const Landing = () => (
       </div>
       <video
         class="video"
+        poster={poster2}
         src={video1}
         controls="autoplay"
         className=" border-black border-2 rounded-2xl"
@@ -97,6 +102,7 @@ const Landing = () => (
       </div>
       <video
         class="video"
+        poster={poster3}
         src={video2}
         controls="autoplay"
         className=" border-black border-2 rounded-2xl"
