@@ -44,3 +44,7 @@ video {
 #contactPage {
   height: 62vh;
 } */
+
+.app {
+  max-width: 100%;
+}

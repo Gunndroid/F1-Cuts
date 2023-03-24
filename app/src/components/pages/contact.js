@@ -1,5 +1,6 @@
 import React from "react";
-import "../../index.css";
+// import "../../index.css";
+import contactImage from "../../media/img/f1Cuts-contact.png";
 
 const ContactUs = () => {
   return (
@@ -7,7 +8,12 @@ const ContactUs = () => {
       <p className="text-white text-5xl md:text-7xl font-bold text-center font-faster mt-28">
         Contact F1
       </p>
-      <div className="grid md:grid-cols-2 grid-rows-1 text-black m-12 w-5/6 border-black border-2 py-12 bg-slate-100 rounded-2xl text-center mx-auto my-32">
+      <div className="text-black m-12 w-5/6 border-black border-2 py-12 bg-slate-100 rounded-2xl text-center mx-auto my-32">
+        <img
+          src={contactImage}
+          alt="contact F1"
+          className="w-3/4 mx-auto rounded-lg border-2 border-black"
+        />
         <div className="m-20">
           <p className="text-xl font-bold">
             Contact us to start your video editing project.

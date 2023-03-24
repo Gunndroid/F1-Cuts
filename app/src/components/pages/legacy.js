@@ -2,14 +2,16 @@ import PlaceAnOrder from "../placeAnOrder";
 import image1 from "../../media/img/f1-clients-1.png";
 import image2 from "../../media/img/f1-clients-5.png";
 import image3 from "../../media/img/f1-clients-3.png";
-import image4 from "../../media/img/f1-clients-7.png";
+// import image4 from "../../media/img/f1-clients-7.png";
 import image5 from "../../media/img/f1-clients-6.png";
 import image6 from "../../media/img/f1-clients-charity.png";
 import image7 from "../../media/img/f1-clients-hilton.png";
-import image8 from "../../media/img/f1-clients-wgci.png";
+// import image8 from "../../media/img/f1-clients-wgci.png";
 import image9 from "../../media/img/f1-clients-wndr.png";
 import image10 from "../../media/img/f1-clients-att.png";
 import image11 from "../../media/img/f1-clients-underarmour.png";
+import chicagoImage from "../../media/img/f1Cuts-chicago2.png";
+import worldImage from "../../media/img/f1Cuts-earth.png";
 
 const Legacy = () => {
   return (
@@ -20,8 +22,9 @@ const Legacy = () => {
       </p>
 
       <div className="bg-black py-24 border-white border-y-2 px-10">
+        {/* portfolio images */}
         <div className="grid md:grid-cols-3 grid-rows-3 gap-y-24 gap-x-10">
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Charity4Life</p>
             <br></br>
 
@@ -36,7 +39,7 @@ const Legacy = () => {
               and Nicaragua
             </i>
           </div>
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">AT&T</p>
             <br></br>
             <img
@@ -49,7 +52,7 @@ const Legacy = () => {
             <i>Event marketing videos for the USA communcations giant</i>
           </div>
 
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Hilo Palace Theatre</p>
             <br></br>
             <img
@@ -61,7 +64,7 @@ const Legacy = () => {
 
             <i>Live music events at this historic Hawaiian Theater.</i>
           </div>
-          <div className="w-1/2 mx-auto">
+          {/* <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Dimend Scaasi</p>
             <br></br>
             <img
@@ -72,8 +75,8 @@ const Legacy = () => {
             <br></br>
 
             <i>Jewelry commercials for the diamond-makers</i>
-          </div>
-          <div className="w-1/2 mx-auto">
+          </div> */}
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Madison Beer</p>
             <br></br>
             <img
@@ -85,7 +88,7 @@ const Legacy = () => {
 
             <i>Live show recordings for the world-renowned pop singer</i>
           </div>
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Under Armour</p>
             <br></br>
             <img
@@ -95,7 +98,7 @@ const Legacy = () => {
             />
             <br></br>
           </div>
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Hilton Hotels & Suites</p>
             <br></br>
             <img
@@ -106,7 +109,7 @@ const Legacy = () => {
             <br></br>
           </div>
 
-          <div className="w-1/2 mx-auto">
+          {/* <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">WGCI Radio</p>
             <br></br>
             <img
@@ -115,9 +118,9 @@ const Legacy = () => {
               className=" border-white border-2 rounded-xl "
             />
             <br></br>
-          </div>
+          </div> */}
 
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Sunsets Swimwear</p>
             <br></br>
             <img
@@ -130,7 +133,7 @@ const Legacy = () => {
             <i>Swim Fashion films in Los Angeles, CA</i>
           </div>
 
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">Depaul School of Music</p>
             <br></br>
             <img
@@ -145,7 +148,7 @@ const Legacy = () => {
               Depaul
             </i>
           </div>
-          <div className="w-1/2 mx-auto">
+          <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">WNDR Museum</p>
             <br></br>
             <img
@@ -161,7 +164,7 @@ const Legacy = () => {
             </i>
           </div>
 
-          <div className="w-1/2 mx-auto">
+          {/* <div className="w-5/6 md:w-2/3 mx-auto">
             <p className="text-xl font-bold">text</p>
             <br></br>
             <img
@@ -170,12 +173,11 @@ const Legacy = () => {
               className=" border-white border-2 rounded-xl"
             />
             <br></br>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="mb-40 w-4/5 md:w-3/5 text-lg text-black font-bold text-center m-20 mx-auto border-black border-2 py-8 bg-slate-100 rounded-2xl">
         <p className="p-6 md:mx-24">
-          <br></br>
           <br></br>
           We are a video editing agency founded in Chicago by Hakan and Gunnar,
           both with a passion for fast, cool, and trendy video edits.
@@ -185,6 +187,12 @@ const Legacy = () => {
           creativity, technical skills, and a deep understanding of
           storytelling.
           <br></br>
+          <br></br>
+          <img
+            src={chicagoImage}
+            alt="contact F1"
+            className="w-3/4 mx-auto rounded-lg border-2 border-black"
+          />
           <br></br>
           We specialize in producing high-quality video content that engages,
           entertains, and inspires audiences.
@@ -205,6 +213,12 @@ const Legacy = () => {
           If you're looking for a video editing agency that can bring your ideas
           to life, then look no further than F1 Cuts.
           <br></br>
+          <br></br>
+          <img
+            src={worldImage}
+            alt="contact F1"
+            className="w-3/4 mx-auto rounded-lg border-2 border-black"
+          />
           <br></br>
           We serve clients from all over the world.
           <br></br>
