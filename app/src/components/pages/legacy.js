@@ -194,6 +194,8 @@ const Legacy = () => {
             className="w-3/4 mx-auto rounded-lg border-2 border-black"
           />
           <br></br>
+          <br></br>
+          <br></br>
           We specialize in producing high-quality video content that engages,
           entertains, and inspires audiences.
           <br></br>
