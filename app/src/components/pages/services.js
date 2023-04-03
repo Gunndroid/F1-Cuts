@@ -29,9 +29,9 @@ const Services = () => {
 
             <p>
               <p className="text-2xl underline">Packages</p>
-              <br></br>3 videos = $250
-              <br></br>5 videos = $400
-              <br></br>10 videos = $700
+              <br></br>Bronze: 3 videos = $250
+              <br></br>Silver: 5 videos = $400
+              <br></br>Gold: 10 videos = $700
             </p>
             <br></br>
             <br></br>
