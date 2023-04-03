@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from "react";
-// import "./App.css";
+import "./App.css";
 
 const ProductDisplay = () => (
-  <section className="w-fit mx-auto m-10">
-    <div className="border-2 border-white">
-      <div className="text-white text-center">
-        <h3>Bronze</h3>
-        <h5>$150.00</h5>
+  <section>
+    <div className="product">
+      <img
+        src="https://i.imgur.com/EHyR2nP.png"
+        alt="The cover of Stubborn Attachments"
+      />
+      <div className="description">
+        <h3>Stubborn Attachments</h3>
+        <h5>$20.00</h5>
       </div>
     </div>
     <form action="/create-checkout-session" method="POST">
-      <button className="bg-white p-5" type="submit">
-        Checkout
-      </button>
+      <button type="submit">Checkout</button>
     </form>
   </section>
 );
