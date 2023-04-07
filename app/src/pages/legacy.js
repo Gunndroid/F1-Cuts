@@ -177,11 +177,11 @@ const Legacy = () => {
         </div>
       </div>
       <div className="mb-28 w-4/5 md:w-5/6 text-lg text-black font-bold m-20 mx-auto border-black border-2 py-8 bg-slate-100 rounded-2xl">
-        <img
+        {/* <img
           src={chicagoImage}
           alt="contact F1"
           className="w-5/6 md:w-3/4 mx-auto rounded-lg border-2 border-black m-2 mt-10"
-        />
+        /> */}
         <p className="px-16 md:mx-24 text-left">
           <br></br>
           <br></br>
