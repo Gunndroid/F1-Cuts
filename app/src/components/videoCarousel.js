@@ -27,7 +27,7 @@ const VideoCarousel = () => {
 
         <div className="carousel-slide">
           {" "}
-          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl w-1/3 mr-28">
+          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
             <p className="w-3/4 text-center text-bold text-5xl mx-auto text-black font-faster">
               READY
             </p>
@@ -57,7 +57,7 @@ const VideoCarousel = () => {
         {/* Video 2 */}
 
         <div className="carousel-slide">
-          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl w-1/3 mr-28">
+          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
             <p className="w-3/4 text-center text-bold text-5xl mx-auto text-black font-faster">
               SET
             </p>
@@ -81,12 +81,12 @@ const VideoCarousel = () => {
         {/* Video 3 */}
 
         <div className="carousel-slide">
-          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl w-1/3 mr-28 text-black">
-            <p className="w-3/4 text-center text-bold text-5xl mx-auto font-faster ">
+          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
+            <p className="w-3/4 text-center text-bold text-5xl mx-auto text-black font-faster">
               EDIT!
             </p>
             <br></br>
-            <p className="w-3/4 text-xl mx-auto text-center">
+            <p className="w-3/4 text-xl mx-auto text-black text-center">
               We begin editing your video in the cutting room.
               <br></br>
               <br></br>

@@ -58,3 +58,10 @@ video {
   justify-content: center;
   width: 100%;
 }
+
+@media (max-width: 767px) {
+  .carousel-slide {
+    flex-direction: column;
+    width: 10%;
+  }
+}
