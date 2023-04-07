@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 import logo from "../media/img/f1cutsBlack.png";
-import Legacy from "./pages/legacy";
-import Landing from "./pages/landing";
-import Services from "./pages/services";
-import Cuts from "./pages/cut";
-import NotFound from "./pages/notfound";
-import ContactUs from "./pages/contact";
+import Legacy from "../pages/legacy";
+import Landing from "../pages/landing";
+import Services from "../pages/services";
+import Cuts from "../pages/cut";
+import NotFound from "../pages/notfound";
+import ContactUs from "../pages/contact";
 
 const Header = () => (
   <>

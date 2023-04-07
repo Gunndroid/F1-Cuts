@@ -1,5 +1,5 @@
 import React from "react";
-import Cuts from "./pages/cut";
+import Cuts from "../pages/cut";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import orderImage from "../media/img/f1Cuts-race.png";
 

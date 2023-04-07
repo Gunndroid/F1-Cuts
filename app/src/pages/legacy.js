@@ -1,17 +1,17 @@
-import PlaceAnOrder from "../placeAnOrder";
-import image1 from "../../media/img/f1-clients-1.png";
-import image2 from "../../media/img/f1-clients-5.png";
-import image3 from "../../media/img/f1-clients-3.png";
+import PlaceAnOrder from "../components/placeAnOrder";
+import image1 from "../media/img/f1-clients-1.png";
+import image2 from "../media/img/f1-clients-5.png";
+import image3 from "../media/img/f1-clients-3.png";
 // import image4 from "../../media/img/f1-clients-7.png";
-import image5 from "../../media/img/f1-clients-6.png";
-import image6 from "../../media/img/f1-clients-charity.png";
-import image7 from "../../media/img/f1-clients-hilton.png";
+import image5 from "../media/img/f1-clients-6.png";
+import image6 from "../media/img/f1-clients-charity.png";
+import image7 from "../media/img/f1-clients-hilton.png";
 // import image8 from "../../media/img/f1-clients-wgci.png";
-import image9 from "../../media/img/f1-clients-wndr.png";
-import image10 from "../../media/img/f1-clients-att.png";
-import image11 from "../../media/img/f1-clients-underarmour.png";
-import chicagoImage from "../../media/img/f1Cuts-chicago2.png";
-import worldImage from "../../media/img/f1Cuts-earth.png";
+import image9 from "../media/img/f1-clients-wndr.png";
+import image10 from "../media/img/f1-clients-att.png";
+import image11 from "../media/img/f1-clients-underarmour.png";
+import chicagoImage from "../media/img/f1Cuts-chicago2.png";
+import worldImage from "../media/img/f1Cuts-earth.png";
 
 const Legacy = () => {
   return (

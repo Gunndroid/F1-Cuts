@@ -1,5 +1,5 @@
-import PlaceAnOrder from "../placeAnOrder";
-import reelImage from "../../media/img/f1Cuts-reel.png";
+import PlaceAnOrder from "../components/placeAnOrder";
+import reelImage from "../media/img/f1Cuts-reel.png";
 
 const Services = () => {
   return (
@@ -36,11 +36,11 @@ const Services = () => {
             <br></br>
             <br></br>
 
-            <p className="text-2xl underline">Add-ons</p>
+            {/* <p className="text-2xl underline">Add-ons</p>
             <li className="m-4">Text-on-Video = $25/video</li>
             <li className="m-4">Transitions = $30/video</li>
             <li className="m-4">Trendy Music = $10/video</li>
-            <li className="m-4">Trendy Filter = $15/video</li>
+            <li className="m-4">Trendy Filter = $15/video</li> */}
           </ul>
           <br></br>
         </div>

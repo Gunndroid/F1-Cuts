@@ -1,12 +1,12 @@
-import video from "../../media/video/test1.MOV";
-import video1 from "../../media/video/test2.MOV";
-import video2 from "../../media/video/test3.MOV";
-import imageMain from "../../media/img/f1TeamDarkRed.jpg";
-import "../../index.css";
-import PlaceAnOrder from "../placeAnOrder";
-import poster1 from "../../media/img/f1Cuts-ready.png";
-import poster2 from "../../media/img/f1Cuts-set.png";
-import poster3 from "../../media/img/f1Cuts-edit2.png";
+import video from "../media/video/test1.MOV";
+import video1 from "../media/video/test2.MOV";
+import video2 from "../media/video/test3.MOV";
+import imageMain from "../media/img/f1TeamDarkRed.jpg";
+import "../index.css";
+import PlaceAnOrder from "../components/placeAnOrder";
+import poster1 from "../media/img/f1Cuts-ready.png";
+import poster2 from "../media/img/f1Cuts-set.png";
+import poster3 from "../media/img/f1Cuts-edit2.png";
 
 const Landing = () => (
   <main className="text-white font-bold">

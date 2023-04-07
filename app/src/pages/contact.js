@@ -1,6 +1,6 @@
 import React from "react";
 // import "../../index.css";
-import contactImage from "../../media/img/f1Cuts-contact.png";
+import contactImage from "../media/img/f1Cuts-contact.png";
 
 const ContactUs = () => {
   return (
