@@ -51,3 +51,10 @@ video {
   justify-content: center;
   align-items: center; */
 }
+
+.carousel-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

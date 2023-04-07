@@ -7,6 +7,7 @@ import PlaceAnOrder from "../components/placeAnOrder";
 import poster1 from "../media/img/f1Cuts-ready.png";
 import poster2 from "../media/img/f1Cuts-set.png";
 import poster3 from "../media/img/f1Cuts-edit2.png";
+import VideoCarousel from "../components/videoCarousel";
 
 const Landing = () => (
   <main className="text-white font-bold">
@@ -35,7 +36,8 @@ const Landing = () => (
         captivating vision.
       </p>
     </div>
-    {/* Row 1 */}
+    <VideoCarousel />
+    {/* Row 1
     <div className="grid md:grid-cols-2 grid-rows-1 justify-items-center items-center m-7 ">
       <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl w-full md:w-2/3">
         <p className="text-center text-bold text-5xl mx-auto text-black font-faster">
@@ -63,7 +65,7 @@ const Landing = () => (
         className=" border-black border-2 rounded-2xl"
       />
     </div>
-    {/* Row 2 */}
+  
     <div className="grid md:grid-cols-2 grid-rows-1 justify-items-center items-center m-7 my-40 ">
       <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl w-full md:w-2/3">
         <p className="w-3/4 text-center text-bold text-5xl mx-auto text-black font-faster">
@@ -86,7 +88,7 @@ const Landing = () => (
         className=" border-black border-2 rounded-2xl"
       />
     </div>
-    {/* Row 3 */}
+   
     <div className="grid md:grid-cols-2 grid-rows-1 justify-items-center items-center  m-7 my-40 ">
       <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl w-full md:w-2/3 text-black">
         <p className="w-3/4 text-center text-bold text-5xl mx-auto font-faster ">
@@ -107,7 +109,8 @@ const Landing = () => (
         controls="autoplay"
         className=" border-black border-2 rounded-2xl"
       />
-    </div>
+    </div>{" "}
+    */}
     {/* Row 4 */}
     <PlaceAnOrder />
   </main>
