@@ -22,7 +22,7 @@ const Header = () => (
             {/* <Link to="/services">Services</Link> */}
             <Link
               to="/makeacut"
-              className="text-black  w-fit mx-auto rounded-md px-4  bg-yellow-500"
+              className="text-black  w-fit mx-auto rounded-sm px-4  bg-yellow-500"
             >
               Make a Cut!
             </Link>

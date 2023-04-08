@@ -21,7 +21,7 @@ const Legacy = () => {
         Our Legacy
       </p>
 
-      <div className="mb-28 w-4/5 md:w-8/12 text-lg text-black font-bold m-20 mx-auto border-black border-2 py-8 bg-slate-100 rounded-2xl">
+      <div className="mb-28 w-4/5 md:w-8/12 text-lg text-black font-bold m-20 mx-auto border-black border-2 py-8 bg-slate-100 rounded-lg">
         {/* <img
           src={chicagoImage}
           alt="contact F1"
@@ -66,7 +66,7 @@ const Legacy = () => {
             <img
               src={image6}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
             <i>
@@ -80,7 +80,7 @@ const Legacy = () => {
             <img
               src={image10}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
 
@@ -93,7 +93,7 @@ const Legacy = () => {
             <img
               src={image1}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
 
@@ -105,7 +105,7 @@ const Legacy = () => {
             <img
               src={image4}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
 
@@ -117,7 +117,7 @@ const Legacy = () => {
             <img
               src={image3}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
 
@@ -129,7 +129,7 @@ const Legacy = () => {
             <img
               src={image11}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
           </div>
@@ -139,7 +139,7 @@ const Legacy = () => {
             <img
               src={image7}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
           </div>
@@ -150,7 +150,7 @@ const Legacy = () => {
             <img
               src={image8}
               alt=""
-              className=" border-white border-2 rounded-xl "
+              className=" border-white border-2 rounded-lg "
             />
             <br></br>
           </div> */}
@@ -161,7 +161,7 @@ const Legacy = () => {
             <img
               src={image2}
               alt=""
-              className=" border-white border-2 rounded-xl "
+              className=" border-white border-2 rounded-lg "
             />
             <br></br>
 
@@ -174,7 +174,7 @@ const Legacy = () => {
             <img
               src={image5}
               alt=""
-              className=" border-white border-2 rounded-xl  "
+              className=" border-white border-2 rounded-lg  "
             />
             <br></br>
 
@@ -189,7 +189,7 @@ const Legacy = () => {
             <img
               src={image9}
               alt=""
-              className=" border-white border-2 rounded-xl "
+              className=" border-white border-2 rounded-lg "
             />
             <br></br>
 
@@ -205,7 +205,7 @@ const Legacy = () => {
             <img
               src={image7}
               alt=""
-              className=" border-white border-2 rounded-xl"
+              className=" border-white border-2 rounded-lg"
             />
             <br></br>
           </div> */}

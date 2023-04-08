@@ -5,7 +5,7 @@ import orderImage from "../media/img/f1Cuts-race.png";
 
 const PlaceAnOrder = () => {
   return (
-    <div className="grid md:grid-cols-2 text-black m-12 w-5/6 md:w-5/6 border-black border-2 py-12 bg-slate-100 rounded-2xl text-center mx-auto">
+    <div className="grid md:grid-cols-2 text-black m-12 w-5/6 md:w-5/6 border-black border-2 py-12 bg-slate-100 rounded-lg text-center mx-auto">
       <img
         src={orderImage}
         alt="contact F1"

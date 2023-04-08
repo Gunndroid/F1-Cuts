@@ -8,7 +8,7 @@ const Cuts = () => {
         Make a Cut
       </p>
 
-      <div className="grid  text-black m-12 w-5/6 md:w-5/6 border-black border-2 py-12 my-28 bg-slate-100 rounded-2xl text-center mx-auto">
+      <div className="grid  text-black m-12 w-5/6 md:w-5/6 border-black border-2 py-12 my-28 bg-slate-100 rounded-lg text-center mx-auto">
         <div className="text-xl p-4">
           <p className="text-3xl underline font-bold">Video Reels</p>
           <br></br>
@@ -25,27 +25,27 @@ const Cuts = () => {
           <p className="font-bold">Choose your Package:</p>
           <br></br>
         </div>
-        <div className="grid gap-6 mb-10">
+        <div className="grid gap-8 mb-10">
           <a
             href="https://buy.stripe.com/5kA3cv1Rb3UkgZa9AC"
             target="_blank"
-            className="border-2 border-black w-60 mx-auto rounded-lg p-5 bg-yellow-500"
+            className="border-2 border-black w-80 mx-auto rounded-sm p-5 bg-yellow-500"
           >
-            Gold Package (10 Videos) for $700.00
+            Gold Package (10 Videos)<br></br> for $700.00
           </a>
           <a
             href="https://buy.stripe.com/28o5kDfI1fD2cIU8wx"
             target="_blank"
-            className="border-2 border-black w-60 mx-auto rounded-lg p-5 bg-gray-400"
+            className="border-2 border-black w-80 mx-auto rounded-sm p-5 bg-gray-400"
           >
-            Silver Package (5 Videos) for $400.00
+            Silver Package (5 Videos) <br></br>for $400.00
           </a>
           <a
             href="https://buy.stripe.com/6oE7sL7bv0I85gs9AA"
             target="_blank"
-            className="border-2 border-black w-60 mx-auto rounded-lg p-5 bg-orange-700"
+            className="border-2 border-black w-80 mx-auto rounded-sm p-5 bg-orange-700"
           >
-            Bronze Package (3 Videos) for $250.00
+            Bronze Package (3 Videos) <br></br>for $250.00
           </a>
         </div>
       </div>

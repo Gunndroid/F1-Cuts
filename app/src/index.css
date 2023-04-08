@@ -12,6 +12,11 @@ body {
   background-color: #bb0e1d;
 }
 
+::selection {
+  color: black;
+  background: #bb0e1d;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -37,7 +42,7 @@ footer {
 }
 
 video {
-  height: 600px;
+  height: 580px;
   margin: 30px 0px;
 }
 /* 

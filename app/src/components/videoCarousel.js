@@ -27,7 +27,7 @@ const VideoCarousel = () => {
 
         <div className="carousel-slide">
           {" "}
-          <div className="w-3/4 border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
+          <div className="w-3/4 border-black border-2 py-20 bg-slate-100 rounded-lg md:w-1/3 md:mr-28">
             <p className=" text-center text-bold text-5xl mx-auto text-black font-faster">
               READY
             </p>
@@ -50,14 +50,14 @@ const VideoCarousel = () => {
             poster={poster1}
             src={video}
             controls="play"
-            className=" border-black border-2 rounded-2xl"
+            className=" border-black border-2 rounded-lg"
           />
         </div>
 
         {/* Video 2 */}
 
         <div className="carousel-slide">
-          <div className="w-3/4 border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
+          <div className="w-3/4 border-black border-2 py-20 bg-slate-100 rounded-lg md:w-1/3 md:mr-28">
             <p className="text-center text-bold text-5xl mx-auto text-black font-faster">
               SET
             </p>
@@ -75,13 +75,13 @@ const VideoCarousel = () => {
             poster={poster2}
             src={video1}
             controls="autoplay"
-            className=" border-black border-2 rounded-2xl"
+            className=" border-black border-2 rounded-lg"
           />
         </div>
         {/* Video 3 */}
 
         <div className="carousel-slide">
-          <div className="w-3/4 border-black border-2 py-28 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
+          <div className="w-3/4 border-black border-2 py-28 bg-slate-100 rounded-lg md:w-1/3 md:mr-28">
             <p className=" text-center text-bold text-5xl mx-auto text-black font-faster">
               EDIT!
             </p>
@@ -98,7 +98,7 @@ const VideoCarousel = () => {
             poster={poster3}
             src={video2}
             controls="autoplay"
-            className=" border-black border-2 rounded-2xl"
+            className=" border-black border-2 rounded-lg"
           />
         </div>
       </Slider>
