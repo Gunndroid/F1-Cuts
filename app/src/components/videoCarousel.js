@@ -21,14 +21,14 @@ const VideoCarousel = () => {
   };
 
   return (
-    <div className="md:w-5/6 mx-auto mb-40">
+    <div className="w-5/6 md:w-5/6 mx-auto mb-40">
       <Slider {...settings}>
         {/* Video 1 */}
 
         <div className="carousel-slide">
           {" "}
-          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
-            <p className="w-3/4 text-center text-bold text-5xl mx-auto text-black font-faster">
+          <div className="w-3/4 border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
+            <p className=" text-center text-bold text-5xl mx-auto text-black font-faster">
               READY
             </p>
             <br></br>
@@ -57,8 +57,8 @@ const VideoCarousel = () => {
         {/* Video 2 */}
 
         <div className="carousel-slide">
-          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
-            <p className="w-3/4 text-center text-bold text-5xl mx-auto text-black font-faster">
+          <div className="w-3/4 border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
+            <p className="text-center text-bold text-5xl mx-auto text-black font-faster">
               SET
             </p>
             <br></br>
@@ -81,8 +81,8 @@ const VideoCarousel = () => {
         {/* Video 3 */}
 
         <div className="carousel-slide">
-          <div className=" border-black border-2 py-20 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
-            <p className="w-3/4 text-center text-bold text-5xl mx-auto text-black font-faster">
+          <div className="w-3/4 border-black border-2 py-28 bg-slate-100 rounded-xl md:w-1/3 md:mr-28">
+            <p className=" text-center text-bold text-5xl mx-auto text-black font-faster">
               EDIT!
             </p>
             <br></br>

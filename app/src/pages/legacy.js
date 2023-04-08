@@ -21,11 +21,11 @@ const Legacy = () => {
         Our Legacy
       </p>
 
-      <div className="mb-28 w-4/5 md:w-5/6 text-lg text-black font-bold m-20 mx-auto border-black border-2 py-8 bg-slate-100 rounded-2xl">
+      <div className="mb-28 w-4/5 md:w-8/12 text-lg text-black font-bold m-20 mx-auto border-black border-2 py-8 bg-slate-100 rounded-2xl">
         {/* <img
           src={chicagoImage}
           alt="contact F1"
-          className="w-5/6 md:w-3/4 mx-auto rounded-lg border-2 border-black m-2 mt-10"
+          className="w-8/12 md:w-3/4 mx-auto rounded-lg border-2 border-black m-2 mt-10"
         /> */}
         <p className="px-16 md:mx-24 text-left">
           <br></br>
@@ -59,7 +59,7 @@ const Legacy = () => {
       <div className="bg-black py-24 border-white border-y-2 px-10">
         {/* portfolio images */}
         <div className="grid md:grid-cols-3 grid-rows-3 gap-y-24 gap-x-10">
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Charity4Life</p>
             <br></br>
 
@@ -74,7 +74,7 @@ const Legacy = () => {
               and Nicaragua
             </i>
           </div>
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">AT&T</p>
             <br></br>
             <img
@@ -87,7 +87,7 @@ const Legacy = () => {
             <i>Event marketing videos for the USA communcations giant</i>
           </div>
 
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Hilo Palace Theatre</p>
             <br></br>
             <img
@@ -99,7 +99,7 @@ const Legacy = () => {
 
             <i>Live music events at this historic Hawaiian Theater.</i>
           </div>
-          {/* <div className="w-5/6 md:w-2/3 mx-auto">
+          {/* <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Dimend Scaasi</p>
             <br></br>
             <img
@@ -111,7 +111,7 @@ const Legacy = () => {
 
             <i>Jewelry commercials for the diamond-makers</i>
           </div> */}
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Madison Beer</p>
             <br></br>
             <img
@@ -123,7 +123,7 @@ const Legacy = () => {
 
             <i>Live show recordings for the world-renowned pop singer</i>
           </div>
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Under Armour</p>
             <br></br>
             <img
@@ -133,7 +133,7 @@ const Legacy = () => {
             />
             <br></br>
           </div>
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Hilton Hotels & Suites</p>
             <br></br>
             <img
@@ -144,7 +144,7 @@ const Legacy = () => {
             <br></br>
           </div>
 
-          {/* <div className="w-5/6 md:w-2/3 mx-auto">
+          {/* <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">WGCI Radio</p>
             <br></br>
             <img
@@ -155,7 +155,7 @@ const Legacy = () => {
             <br></br>
           </div> */}
 
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Sunsets Swimwear</p>
             <br></br>
             <img
@@ -168,7 +168,7 @@ const Legacy = () => {
             <i>Swim Fashion films in Los Angeles, CA</i>
           </div>
 
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">Depaul School of Music</p>
             <br></br>
             <img
@@ -183,7 +183,7 @@ const Legacy = () => {
               Depaul
             </i>
           </div>
-          <div className="w-5/6 md:w-2/3 mx-auto">
+          <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">WNDR Museum</p>
             <br></br>
             <img
@@ -199,7 +199,7 @@ const Legacy = () => {
             </i>
           </div>
 
-          {/* <div className="w-5/6 md:w-2/3 mx-auto">
+          {/* <div className="w-8/12 md:w-7/12 mx-auto">
             <p className="text-xl font-bold">text</p>
             <br></br>
             <img

@@ -65,3 +65,7 @@ video {
     width: 10%;
   }
 }
+
+.slick-dots li.slick-active button:before {
+  color: silver !important;
+}
