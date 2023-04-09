@@ -19,7 +19,7 @@ const PlaceAnOrder = () => {
           Let's race your content into first place!
         </p>
         <Link to="/makeacut" className="my-auto">
-          <button className="rounded-lg bg-yellow-500 text-black px-8 py-3 border-black border-2">
+          <button className="rounded-md bg-yellow-500 text-black px-8 py-3 border-black border-2">
             Make a Cut!
           </button>
         </Link>
